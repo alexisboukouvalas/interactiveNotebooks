@@ -1,3 +1,4 @@
 FROM andrewosh/binder-base
-RUN pip install plotly
+USER main
+RUN pip install plotly  --ignore-installed
 
